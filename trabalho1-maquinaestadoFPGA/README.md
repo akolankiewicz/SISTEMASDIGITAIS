@@ -33,7 +33,7 @@ Sistema de controle de elevador com 5 andares, limite de 2 pessoas e modo de eme
 - Botão KEY[0]
 - Desce suavemente até o andar 1
 - Descarta todas as chamadas
-- Mostra "190" nos displays (Bombeiros)
+- Mostra "190" nos displays (Polícia)
 
 ---
 
@@ -109,7 +109,7 @@ Sistema de controle de elevador com 5 andares, limite de 2 pessoas e modo de eme
 1. **Compilar o projeto:**
 
    - Use `elevador_pequeno.v` no Quartus
-   - Configurar pinos conforme placa DE1-SoC
+   - Configurar pinos conforme placa
    - Compilar e gravar na FPGA
 
 2. **Operação normal:**
@@ -269,7 +269,7 @@ O testbench (`elevador_pequeno_tb.v`) verifica:
 
 2. **Por que "190"?**
 
-   - Número de emergência dos Bombeiros no Brasil
+   - Por quê não "190"?
    - Easter egg sensacional
 
 3. **Por que movimento automático?**
